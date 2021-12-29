@@ -12,6 +12,7 @@ Types:-
 
 ##  Stratified K Fold Cross Validation
 - Every fold has equal proportion of all the classes/categories.
+- 
 `from sklearn.model_selection import StratifiedKFold`
 
 `skfold= StratifiedKFold(n_splits=5)`
