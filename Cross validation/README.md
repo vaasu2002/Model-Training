@@ -27,3 +27,11 @@
 - take first sample of dataset as testing sample and train model with remaining. Repear this until every sample was cosidered as testing sample.
 - Every sample considered as testing once
 - take average of all the accuracy.
+
+`from sklearn.model_selection import LeaveOneOut`
+
+`lc = LeaveOneOut()`
+
+`result = cross_val_score(model,X,Y,cv=lc)`
+
+`np.mean(result)`
