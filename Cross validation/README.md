@@ -1,5 +1,5 @@
 # Cross validation
-Types:-
+**Types:-**
 ##  K Fold Cross Validation 
 
 `from sklearn.model_selection import KFold,cross_val_score`
