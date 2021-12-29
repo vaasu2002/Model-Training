@@ -7,11 +7,17 @@ Types:-
 
 `result = cross_val_score(model,X,Y,cv = k)`
 
-`print(np.mean(result))`
+`np.mean(result)`
 
 ##  Stratified K Fold Cross Validation
 - Every fold has equal proportion of all the classes/categories.
+`from sklearn.model_selection import StratifiedKFold`
 
+`skfold= StratifiedKFold(n_splits=5)`
+
+`result = cross_val_score(model,X,Y,cv=skfold)`
+
+`np.mean(result)`
 
 
 ## Leave One Out Cross Validation 
