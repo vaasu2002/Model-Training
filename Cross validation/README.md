@@ -1,6 +1,6 @@
 # Cross validation
 **Types:-**
-##  K Fold Cross Validation 
+##  1)  K Fold Cross Validation 
 
 `from sklearn.model_selection import KFold,cross_val_score`
 
@@ -10,7 +10,7 @@
 
 `np.mean(result)`
 
-##  Stratified K Fold Cross Validation
+##  2)  Stratified K Fold Cross Validation
 - Every fold has equal proportion of all the classes/categories.
 - 
 `from sklearn.model_selection import StratifiedKFold`
@@ -22,7 +22,7 @@
 `np.mean(result)`
 
 
-## Leave One Out Cross Validation 
+## 3) Leave One Out Cross Validation 
 - Preferved on short datasets
 - take first sample of dataset as testing sample and train model with remaining. Repear this until every sample was cosidered as testing sample.
 - Every sample considered as testing once
