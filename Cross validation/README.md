@@ -1,13 +1,13 @@
 # Cross validation
 Types:-
 ##  K Fold Cross Validation 
-`from sklearn.model_selection import KFold,cross_val_score
+`from sklearn.model_selection import KFold,cross_val_score`
 
-k = KFold(5)
+`k = KFold(5)`
 
-result = cross_val_score(model,X,Y,cv = k)
+`result = cross_val_score(model,X,Y,cv = k)`
 
-print(np.mean(result))`
+`print(np.mean(result))`
 
 ##  Stratified K Fold Cross Validation
 - Every fold has equal proportion of all the classes/categories.
