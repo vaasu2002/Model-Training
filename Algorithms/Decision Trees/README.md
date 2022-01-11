@@ -25,3 +25,5 @@ Measure how pure a set is. One impurity function is **gini impurity**.
 ### **gini impurity** - probability of a class being present x Probability of a class not being present.
 
 Worst possible distribution = all classes present in same frequency. mode of all class same. 
+----------------------------------------------------------------------------
+KL Divergence
