@@ -21,3 +21,5 @@ Measure how pure a set is. One impurity function is **gini impurity**.
 * S = {(x1,y1) , (x2,y2).....(xn,yn) }
 * **y** contrains **K** labels on **k** dataset class.
 * Probability of label K is :- |Sk|/|S|
+
+### **gini impurity** - probability of a class being present x Probability of a class not being present
