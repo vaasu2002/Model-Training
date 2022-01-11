@@ -14,3 +14,12 @@
 
 ### Entropy - measure of randomness.
 - We choose information which gives us `high information gain` (less entropy).
+
+### Impurity Function - 
+Measure how pure a set is. One impurity function is **gini impurity**.
+
+S = {(x1,y1) , (x2,y2).....(xn,yn) }
+
+**y** contrains **K** labels on **k** dataset class.
+
+Probability of label K is :- |Sk|/|S|
